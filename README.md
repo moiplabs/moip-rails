@@ -6,10 +6,10 @@ Material do (Daniel Lopes)[http://github.com/danielvlopes/] adaptado para o Rail
 Instalação e Execução
 ----------------------
 
-  $ git clone git://github.com/moiplabs/moip-rails.git
-  $ cd moip-rails
-  $ bundle
-  $ rails s
+    $ git clone git://github.com/moiplabs/moip-rails.git
+    $ cd moip-rails
+    $ bundle
+    $ rails s
 
 
 Happy coding!
