@@ -35,6 +35,8 @@ class Moip
     end
 
   protected
+    # você pode adicionar mais campos da API do MoIP aqui a medida que seus
+    # exemplos forem se tornando mais complexos. 
     def mount_request(attributes)
       reason, id, value = attributes[:reason], attributes[:id], attributes[:value]
       xml = Builder::XmlMarkup.new.EnviarInstrucao do |e|
